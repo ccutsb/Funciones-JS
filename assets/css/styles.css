@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+#div1, #div2, #div3, #div4, #key {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#contenedor > div{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    transition: background-color 1s;
+   }
+
+h5{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
